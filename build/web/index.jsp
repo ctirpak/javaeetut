@@ -1,9 +1,11 @@
+<%-- 
+    Document   : index
+    Created on : Nov 12, 2017, 12:30:44 PM
+    Author     : chris
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
 <html>
     <head>
         <meta charset="UTF-8">
@@ -28,7 +30,9 @@ and open the template in the editor.
                 <img src="#" id="logoText" alt="the affable bean">
             </div>
             <div id="indexLeftColumn">
-                [ text ]
+                <div id="welcomeText">
+                    [ welcome text ]
+                </div>
             </div>
             <div id="indexRightColumn">
                 <div class="categoryBox">
@@ -36,7 +40,7 @@ and open the template in the editor.
                         <span class="categoryLabelText">
                             dairy
                         </span>
-                        <div class="categoryContent">
+                        <div class="categoryImage">
                             <img src="#" alt="Dairy Image" />
                         </div>
                     </a>
@@ -46,7 +50,7 @@ and open the template in the editor.
                         <span class="categoryLabelText">
                             meats
                         </span>
-                        <div class="categoryLabelText">
+                        <div class="categoryImage">
                             <img src="#" alt="Meats Image" />
                         </div>
                     </a>
@@ -56,7 +60,7 @@ and open the template in the editor.
                         <span class="categoryLabelText">
                             bakery
                         </span>
-                        <div class="categoryLabelText">
+                        <div class="categoryImage">
                             <img src="#" alt="Bakery Image" />
                         </div>
                     </a>
@@ -66,14 +70,15 @@ and open the template in the editor.
                         <span class="categoryLabelText">
                             fruit
                         </span>
-                        <div class="categoryLabelText">
+                        <div class="categoryImage">
                             <img src="#" alt="Fruit Image" />
                         </div>
                     </a>
                 </div>
             </div>
             <div id="footer">
-                footer
+                <hr>
+                <p id="footerText">[ footer text ]</p>
             </div>
         </div>
     </body>
