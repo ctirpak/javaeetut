@@ -22,6 +22,8 @@ import javax.servlet.http.HttpServletResponse;
 		urlPatterns = {"/category", 
 			"/addToCart",
 			"/viewCart",
+			"/cart",
+			"/confirmation",
 			"/updateCart",
 			"/checkout",
 			"/purchase",

@@ -161,3 +161,79 @@ hr {
     width: 140px;
     height: 80px;
 }
+
+#cartWidgetBar {
+    height: 50px;
+    width: 850px;
+    float: right;
+    background: #ccc;
+}
+
+.cartWidget {
+    width: 150px;
+    margin: 20px 2px;
+    font-size: small;
+    float: right;
+    line-height: 25px;
+    background: #aaa;
+}
+
+#columnHeader {
+    height: 50px;
+    width: 850px;
+    float: right;
+    background: #ccc;
+}
+
+.headerText {
+    width: 150px;
+    margin: 20px 2px;
+    font-size: small;
+    float: right;
+    line-height: 25px;
+    background: #aaa;
+}
+
+#purchaseConditions {
+	height: 190px;
+	margin: 10px;
+	background: #abc;
+}
+
+#purchaseCalculations {
+	height: 190px;
+	margin: 10px;
+	background: #abc;
+}
+
+#checkoutForm {
+	height: 350px;
+}
+
+#confirmationDetails {
+	height: 460px;
+	width: 850px;
+}
+
+#confirmation {
+	height: 200px;
+	width: 810px;
+	background: #cba;
+	text-align: left;
+	margin: 20px 0px 0px 20px;
+}
+
+#orderSummary {
+	height: 200px;
+	width: 395px;
+	background: #cba;
+	display: inline-block;
+	margin: 20px 0px 0px 0px;
+}
+#customerSummary {
+	height: 200px;
+	width: 395px;
+	background: #cba;
+	display: inline-block;
+	margin: 0px 0px 0px 20px;
+}

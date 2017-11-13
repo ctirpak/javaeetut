@@ -5,25 +5,31 @@
 --%>
 
 
-<div id="categoryLeftColumn">
-	<div class="category">
-		[ category 1 ]
+
+<div id="cartColumn">
+	<div>Your shopping cart contains <span id="cartCount">x</span> item(s)</div>
+	<div id="cartWidgetBar">
+		<div class="cartWidget">
+			<a href="#">Clear Cart</a>
+		</div>
+		<div class="cartWidget">
+			<a href="#">Continue Shopping</a>
+		</div>
+		<div class="cartWidget">
+			<a href="#">Proceed to Checkout</a>
+		</div>
 	</div>
-	<div class="category">
-		[ category 2 ]
+	<div id="subtotal">[ subtotal: xxx ]</div>
+	<div id="columnHeader">
+		<div class="headerText">product</div>
+		<div class="headerText">name</div>
+		<div class="headerText">price</div>
+		<div class="headerText">quantity</div>
 	</div>
-	<div class="category selected">
-		[ category 3 ]
-	</div>
-	<div class="category">
-		[ category 4 ]
-	</div>
-</div>
-<div id="indexRightColumn">
 	<div id="selectedCategory">
 		[ selected category ]
 	</div>
-	<div class="productDetail">
+	<div class="cartDetail">
 		<div class="productImage">
 			<a href="#">
 				<img src="#" alt="Product Image" />
@@ -31,16 +37,16 @@
 		</div>
 		<div class="productText">
 			<p>[ product name ]</p>
-			<p>[ product description ]</p>
 		</div>
 		<div class="productPrice">
 			[ price ]
 		</div>
 		<div class="productAction">
-			<button>Add to cart</button>
+			<input value="1" />
+			<button>update button</button>
 		</div>
 	</div>
-	<div class="productDetail">
+	<div class="cartDetail">
 		<div class="productImage">
 			<a href="#">
 				<img src="#" alt="Product Image" />
@@ -48,47 +54,13 @@
 		</div>
 		<div class="productText">
 			<p>[ product name ]</p>
-			<p>[ product description ]</p>
 		</div>
 		<div class="productPrice">
 			[ price ]
 		</div>
 		<div class="productAction">
-			<button>Add to cart</button>
-		</div>
-	</div>
-	<div class="productDetail">
-		<div class="productImage">
-			<a href="#">
-				<img src="#" alt="Product Image" />
-			</a>
-		</div>
-		<div class="productText">
-			<p>[ product name ]</p>
-			<p>[ product description ]</p>
-		</div>
-		<div class="productPrice">
-			[ price ]
-		</div>
-		<div class="productAction">
-			<button>Add to cart</button>
-		</div>
-	</div>
-	<div class="productDetail">
-		<div class="productImage">
-			<a href="#">
-				<img src="#" alt="Product Image" />
-			</a>
-		</div>
-		<div class="productText">
-			<p>[ product name ]</p>
-			<p>[ product description ]</p>
-		</div>
-		<div class="productPrice">
-			[ price ]
-		</div>
-		<div class="productAction">
-			<button>Add to cart</button>
+			<input value="1" />
+			<button>update button</button>
 		</div>
 	</div>
 </div>

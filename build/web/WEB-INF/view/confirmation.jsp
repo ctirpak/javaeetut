@@ -4,4 +4,15 @@
     Author     : chris
 --%>
 
-<h1>Hello World!</h1>
+<div id="confirmationDetails">
+	<div id="confirmation">
+		<div>[ text ]</div>
+		<div>[ order reference number ]</div>
+	</div>
+	<div id="orderSummary">
+		[ order summary table ]
+	</div>
+	<div id="customerSummary">
+		[ customer details ]
+	</div>
+</div>
