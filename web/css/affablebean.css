@@ -41,7 +41,7 @@ body {
 }
 
 .headerWidget {
-    width: 194px;
+    width: 150px;
     margin: 20px 2px;
     font-size: small;
     float: right;
@@ -79,6 +79,27 @@ hr {
     background: #ccc;
 }
 
+#categoryLeftColumn {
+    height: 400px;
+    width: 155px;
+    float: left;
+    background: #ccc;
+}
+
+.category {
+    height: 75px;
+    width: 115px;
+    margin: 20px 0px 0px 20px;
+    background: #fff;
+}
+
+.selected {
+    height: 75px;
+    width: 135px;
+    margin: 20px 0px 0px 10px;
+    background: #aaa;
+}
+
 #indexRightColumn {
     height: 400px;
     width: 500px;
@@ -103,4 +124,40 @@ hr {
     height: 100px;
     width: 200px;
     margin:  10px;
+}
+
+#selectedCategory {
+    width: 690px;
+    text-align: right;
+    font-size: x-large;
+}
+
+.productDetail {
+    width: 690px;
+    height: 85px;
+    border: solid red;
+}
+
+.productImage {
+    display: inline-block;
+    width: 150px;
+    height: 80px;
+}
+
+.productText {
+    display: inline-block;
+    width: 240px;
+    height: 80px;
+}
+
+.productPrice {
+    display: inline-block;
+    width: 140px;
+    height: 80px;
+}
+
+.productAction {
+    display: inline-block;
+    width: 140px;
+    height: 80px;
 }
