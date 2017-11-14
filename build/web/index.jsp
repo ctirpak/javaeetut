@@ -1,3 +1,4 @@
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%-- 
     Document   : index
     Created on : Nov 12, 2017, 12:30:44 PM
@@ -7,6 +8,11 @@
 <div id="indexLeftColumn">
 	<div id="welcomeText">
 		[ welcome text ]
+        <!-- test to access context parameters -->
+        categoryImagePath: "${initParam.categoryImagePath}"
+        productImagePath: ${initParam.productImagePath}
+
+
 	</div>
 </div>
 <div id="indexRightColumn">
