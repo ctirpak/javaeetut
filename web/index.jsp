@@ -9,9 +9,8 @@
 	<div id="welcomeText">
 		[ welcome text ]
         <!-- test to access context parameters -->
-        categoryImagePath: "${initParam.categoryImagePath}"
+        categoryImagePath: ${initParam.categoryImagePath}
         productImagePath: ${initParam.productImagePath}
-
 
 	</div>
 </div>
