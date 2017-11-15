@@ -86,14 +86,15 @@ hr {
     background: #ccc;
 }
 
-.category {
+.categoryButton {
     height: 75px;
     width: 115px;
     margin: 20px 0px 0px 20px;
     background: #fff;
+	display: inherit;
 }
 
-.selected {
+#selectedCategory {
     height: 75px;
     width: 135px;
     margin: 20px 0px 0px 10px;
@@ -120,13 +121,7 @@ hr {
     font-size: x-large;
 }
 
-.categoryImage {
-    height: 100px;
-    width: 200px;
-    margin:  10px;
-}
-
-#selectedCategory {
+#selectedCategory2 {
     width: 690px;
     text-align: right;
     font-size: x-large;
@@ -138,11 +133,7 @@ hr {
     border: solid red;
 }
 
-.productImage {
-    display: inline-block;
-    width: 150px;
-    height: 80px;
-}
+
 
 .productText {
     display: inline-block;

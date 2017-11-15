@@ -1,9 +1,14 @@
+<%@taglib prefix="sql" uri="http://java.sun.com/jsp/jstl/sql"%>
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%-- 
     Document   : index
     Created on : Nov 12, 2017, 12:30:44 PM
     Author     : chris
 --%>
+
+<sql:query var="categories" dataSource="jdbc/affablebean">
+	SELECT * FROM category
+</sql:query>
 
 <div id="indexLeftColumn">
 	<div id="welcomeText">
@@ -15,44 +20,12 @@
 	</div>
 </div>
 <div id="indexRightColumn">
-	<div class="categoryBox">
-		<a href="#">
-			<span class="categoryLabelText">
-				dairy
-			</span>
-			<div class="categoryImage">
-				<img src="#" alt="Dairy Image" />
-			</div>
-		</a>
-	</div>
-	<div class="categoryBox">
-		<a href="#">
-			<span class="categoryLabelText">
-				meats
-			</span>
-			<div class="categoryImage">
-				<img src="#" alt="Meats Image" />
-			</div>
-		</a>
-	</div>
-	<div class="categoryBox">
-		<a href="#">
-			<span class="categoryLabelText">
-				bakery
-			</span>
-			<div class="categoryImage">
-				<img src="#" alt="Bakery Image" />
-			</div>
-		</a>
-	</div>
-	<div class="categoryBox">
-		<a href="#">
-			<span class="categoryLabelText">
-				fruit
-			</span>
-			<div class="categoryImage">
-				<img src="#" alt="Fruit Image" />
-			</div>
-		</a>
-	</div>
+	<c:forEach var="category" items="${categories.rows}">
+		<div class="categoryBox">
+			<a href="category?${category.id}">
+				<span class="categoryLabelText">${category.name}</span>
+				<img src="${initParam.categoryImagePath}${category.name}.jpg" alt="${category.name}" />
+			</a>
+		</div>
+	</c:forEach>
 </div>

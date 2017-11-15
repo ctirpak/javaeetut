@@ -26,7 +26,7 @@
 		<div class="headerText">price</div>
 		<div class="headerText">quantity</div>
 	</div>
-	<div id="selectedCategory">
+	<div id="selectedCategory2">
 		[ selected category ]
 	</div>
 	<div class="cartDetail">
