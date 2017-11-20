@@ -6,6 +6,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="css/affablebean.css" rel="stylesheet" type="text/css"/>
+		<link rel="shortcut icon" href="img/favicon.ico">
         <title>The Affable Bean</title>
     </head>
     <body>
@@ -15,16 +16,17 @@
                     <div class="headerWidget">
                         [ language toggle ]
                     </div>
+
                     <div class="headerWidget">
+                        [ checkout button ]
                     </div>
+
                     <div class="headerWidget">
-                    </div>
-                    <div class="headerWidget">
-	                [ x items ]
+                        [ shopping cart widget ]
                     </div>
                 </div>
                 <a href="#">
-                    <img src="#" id="logo" alt="Affable Bean Logo" />
+                    <img src="img/logo.png" id="logo" alt="Affable Bean Logo" />
                 </a>
-                <img src="#" id="logoText" alt="the affable bean">
+                <img src="img/logoText.png" id="logoText" alt="the affable bean">
             </div>
